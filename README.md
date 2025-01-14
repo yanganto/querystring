@@ -1,7 +1,5 @@
-> The `querystring` crate provides utilities <!-- for parsing and --> formatting URL query strings.
+The `querystr` provides `Vec<(&str, &str)>`, which can avoid making string from query string.
 
-[![Cargo version](https://img.shields.io/crates/v/querystring.svg)](https://crates.io/crates/querystring)
-[![docs.rs](https://img.shields.io/badge/docs.rs-👌-4EC329.svg?)](https://docs.rs/querystring/)
-[![Crates.io](https://img.shields.io/crates/d/querystring.svg)](https://crates.io/crates/querystring)
-
-- [Documentation](https://docs.rs/querystring/)
+This crate is simple and good as I want.
+However I can not use it in some project, because it is not published.
+So I published it.  If any upstream want to merge it or take over the crate, please kindly let me know. :pray:
